@@ -6,11 +6,11 @@
 
 #define pulsePin A0
 #define ONE_WIRE_BUS D2                          //D2 pin of nodemcu
-#define WIFI_SSID "Akshatha"
-#define WIFI_PASSWORD "akshatha.r"
-unsigned long myChannelNumber = 1269905;
-const char * myWriteAPIKey = "RGRE8F0ODASXLTAG";
-int keyIndex = 0;            // your network key Index number (needed only for WEP)
+#define WIFI_SSID "Enter wifi name"
+#define WIFI_PASSWORD "Enter wifi password"
+unsigned long myChannelNumber = Enter channel Id from thingspeak;
+const char * myWriteAPIKey = "Enter API KEY from thingspeak channel";
+int keyIndex = 0;    
 WiFiClient  client;
 
 Ticker flipper;
@@ -18,11 +18,11 @@ Ticker flipper;
 OneWire oneWire(ONE_WIRE_BUS);
  
 DallasTemperature sensors(&oneWire);            // Pass the oneWire reference to Dallas Temperature.
-volatile int BPM;                   // int that holds raw Analog in 0. updated every 2mS
-volatile int Signal;                // holds the incoming raw data
-volatile int IBI = 600;             // int that holds the time interval between beats! Must be seeded!
-volatile boolean Pulse = false;     // "True" when User's live heartbeat is detected. "False" when not a "live beat".
-volatile boolean QS = false;        // becomes true when Arduoino finds a beat.
+volatile int BPM;                              // int that holds raw Analog in 0. updated every 2mS
+volatile int Signal;                          // holds the incoming raw data
+volatile int IBI = 600;                       // int that holds the time interval between beats! Must be seeded!
+volatile boolean Pulse = false;               // "True" when User's live heartbeat is detected. "False" when not a "live beat".
+volatile boolean QS = false;                  // becomes true when Arduoino finds a beat.
 volatile int rate[10];                        // array to hold last ten IBI values
 volatile unsigned long sampleCounter = 0;     // used to determine pulse timing
 volatile unsigned long lastBeatTime = 0;      // used to find IBI
@@ -58,7 +58,7 @@ void setup()
 
   ThingSpeak.begin(client);
    pinMode(A0,INPUT);
-   interruptSetup();                          // sets up to read Pulse Sensor signal every 2mS
+   interruptSetup();                          // set up to read Pulse Sensor signal every 2mS
    lastMillis=millis();
  }
 
