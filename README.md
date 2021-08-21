@@ -1,2 +1,2 @@
 # Swasthya
-IOT based project!
+IOT based Health Monitoring project!
