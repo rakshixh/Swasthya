@@ -35,7 +35,7 @@
 
 
 ### Block Daigram
-![block daigram](https://user-images.githubusercontent.com/83587918/133767953-a9392722-5228-4b60-b745-028ab09f49a3.png)
+![block](https://user-images.githubusercontent.com/83587918/133770819-1ce14119-3bc4-465f-865d-ee79718afc81.png)
 
 ### Requirements
 
@@ -52,9 +52,9 @@
 
 
 ### Images
-![temp senspor](https://user-images.githubusercontent.com/83587918/133768394-3e90eed4-bcc4-4efa-9546-52fa312500ea.jpg)
-![node mcu](https://user-images.githubusercontent.com/83587918/133768402-ebedc105-49f4-4a39-a1ea-b7e007d37a19.jpg)
-![pulse](https://user-images.githubusercontent.com/83587918/133768405-0d9a3ddd-a36b-4bde-8995-559c9b950df2.png)
+![temp](https://user-images.githubusercontent.com/83587918/133770817-4c2a0611-fb2c-434d-aec2-3187e9b387d2.jpg)
+![node mcu](https://user-images.githubusercontent.com/83587918/133770822-0344042f-36d0-40c2-836d-1a38a1d26a11.jpg)
+![pulse](https://user-images.githubusercontent.com/83587918/133770824-ae1cf52b-0613-4230-adf6-94345f3f50b8.png)
 
 
 ### Project Setup
