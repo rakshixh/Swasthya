@@ -43,6 +43,7 @@
 * Temperature sensor(DS18B20)
 * Pulse sensor
 * NODEMCU (ESP8266)
+* Resistor (4.7k )
 * Breadboard
 * Power Supply (Battery or Power Bank)
 
@@ -55,14 +56,31 @@
 ![temp](https://user-images.githubusercontent.com/83587918/133770817-4c2a0611-fb2c-434d-aec2-3187e9b387d2.jpg)
 ![node mcu](https://user-images.githubusercontent.com/83587918/133770822-0344042f-36d0-40c2-836d-1a38a1d26a11.jpg)
 ![pulse](https://user-images.githubusercontent.com/83587918/133770824-ae1cf52b-0613-4230-adf6-94345f3f50b8.png)
-
+![resistor](https://user-images.githubusercontent.com/83587918/133828682-6838858f-c2b2-497f-85b7-6b8d742d562a.jpeg)
 
 ## Project Setup
 
 #### Step 1
 Take a Breadboard and attach  NodeMCU ESP8266. Then do the required connections shown in the pictures.
 
-((((Addd images))))
+ #### -->Pulse Sensor Connection
+ 
+![connection](https://user-images.githubusercontent.com/83587918/133828890-06089f59-5886-40b7-8f07-e2251bed8bb8.jpg)
+
+* Negative (–) -----------> Gnd pin
+* Positive (+) -----------> 3v3 pin
+* s pin of Sensor -----------> A0
+
+ #### -->Temperature Sensor Connection
+ 
+ ![temp](https://user-images.githubusercontent.com/83587918/133828924-2dd02235-072f-4ddf-9f37-d9ce7b2dd1a2.png)
+
+* Connect the GND pin or the black wire of the sensor to the GND.
+
+* Connect the Vcc pin or the Red wire of the sensor to the 3.3V supply.
+
+* Connect the signal pin or the yellow wire to the 3.3V through a 4.7kohm resistor and also connect this signal pin to the GPIO12 which is D5 pin of the module.
+
 #### Step 2
 Install and setup Arduino IDE in your PC. Download and install all required libraries. Check and set the port in Arduino IDE and connect the NodeMCU ESP8266 using USB cable. 
 Copy the code given, in your Arduino IDE and make required changes in the code.
