@@ -6,10 +6,13 @@
 
 #define pulsePin A0
 #define ONE_WIRE_BUS D2                          //D2 pin of nodemcu
-#define WIFI_SSID "Enter wifi name"
-#define WIFI_PASSWORD "Enter wifi password"
-unsigned long myChannelNumber = Enter channel Id from thingspeak;
-const char * myWriteAPIKey = "Enter API KEY from thingspeak channel";
+
+#define WIFI_SSID "  "                  //Enter wifi name inside the " "
+#define WIFI_PASSWORD "  "              //Enter wifi password inside the " "
+
+unsigned long myChannelNumber = ;       //Enter channel number from Thingspeak cloud service
+const char * myWriteAPIKey = " ";       //Enter API KEY from Thingspeak channel that you have created inside the " "
+
 int keyIndex = 0;    
 WiFiClient  client;
 
