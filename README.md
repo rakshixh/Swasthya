@@ -52,6 +52,9 @@
 
 
 ### Images
+![temp senspor](https://user-images.githubusercontent.com/83587918/133768394-3e90eed4-bcc4-4efa-9546-52fa312500ea.jpg)
+![node mcu](https://user-images.githubusercontent.com/83587918/133768402-ebedc105-49f4-4a39-a1ea-b7e007d37a19.jpg)
+![pulse](https://user-images.githubusercontent.com/83587918/133768405-0d9a3ddd-a36b-4bde-8995-559c9b950df2.png)
 
 
 ### Project Setup
