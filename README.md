@@ -34,10 +34,10 @@
 * Display of the stored data is accessed by the caretakers and doctors to monitor patients.
 
 
-### Block Daigram
+## Block Daigram
 ![block](https://user-images.githubusercontent.com/83587918/133770819-1ce14119-3bc4-465f-865d-ee79718afc81.png)
 
-### Requirements
+## Requirements
 
 #### Hardware Requirements:
 * Temperature sensor(DS18B20)
@@ -51,13 +51,13 @@
 * ThingSpeak(Cloud service)
 
 
-### Images
+## Images
 ![temp](https://user-images.githubusercontent.com/83587918/133770817-4c2a0611-fb2c-434d-aec2-3187e9b387d2.jpg)
 ![node mcu](https://user-images.githubusercontent.com/83587918/133770822-0344042f-36d0-40c2-836d-1a38a1d26a11.jpg)
 ![pulse](https://user-images.githubusercontent.com/83587918/133770824-ae1cf52b-0613-4230-adf6-94345f3f50b8.png)
 
 
-### Project Setup
+## Project Setup
 
 #### Step 1
 Take a Breadboard and attach  NodeMCU ESP8266. Then do the required connections shown in the pictures.
@@ -76,9 +76,13 @@ Such As:
     Create an account in Thingspeak Cloud service then create one channel, give a name for that particular channel. When you open that channel you will get option called "API KEYS" here you will get the API key of your channel which you will need to copy in the code!
 
 
-### Output
+## Output
+![output1](https://user-images.githubusercontent.com/83587918/133771688-630ea6d1-a332-428f-9b2d-16ca2b7bdc2d.png)
 
-((((add images))))
+#### --> Care taker or Doctor can also download all the data in the form of excel sheet for further requirements!!
+
+
+![Picture4](https://user-images.githubusercontent.com/83587918/133771697-487c9f75-799c-4be6-9048-89cba78298ad.png)
 
 ### Who are our End Customers?
 
